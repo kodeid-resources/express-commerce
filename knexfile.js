@@ -22,10 +22,11 @@ module.exports = {
       filename: './test.sqlite3'
     },
     migrations: {
-      tableName: 'knex_migrations'
+      tableName: 'knex_migrations',
+      directory: './data/migrations'
     },
     seeds: {
-      directory: './data/seeds/test'
+      directory: './data/seeds/dev'
     },
     useNullAsDefault: true
   },
